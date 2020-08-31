@@ -5,6 +5,8 @@ from EsCode.esController import EsController
     Python interpreter version : 3.6.1
     주의 : Elasticsearch module install 필요
            Elasticsearch service 구동 필요
+           
+    최초 구동시 : ./Config/esConfig.yml 파일 수정 필요 
 """
 def main():
     o = EsController()
